@@ -94,9 +94,9 @@ To assess the effectiveness of translationese mitigation, we employed both quant
 
 - **Data quality**: Even original AI-Hub translations often contained translationese, making clean ground truth difficult to obtain.
 - **Model accuracy**:
-     KE-T5-base sometimes sacrificed semantic accuracy for fluency.
-     mT5-small/base tended to preserve semantic fidelity but produced more rigid, literal phrasing.
-     KoBART-base-v2 struck a balance by maintaining meaning fairly accurately without being as overly formal as KE-T5 and generating more natural expressions than mT5, though it occasionally omitted some contextual elements.
+   - KE-T5-base sometimes sacrificed semantic accuracy for fluency.
+   - mT5-small/base tended to preserve semantic fidelity but produced more rigid, literal phrasing.
+   - KoBART-base-v2 struck a balance by maintaining meaning fairly accurately without being as overly formal as KE-T5 and generating more natural expressions than mT5, though it occasionally omitted some contextual elements.
 - **CE Loss limitation**: Cross-entropy loss alone may not sufficiently penalize stylistic artifacts.
 
 
