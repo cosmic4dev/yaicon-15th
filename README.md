@@ -7,7 +7,7 @@ This work was presented at the 15th YAICON.
 |---------------------|--------------------------------------------------|----------------------------------------------|
 | Hyun Gu Kang (강현구)     | B.A. German Language & Literature / B.Sc. Applied Statistics | Team Lead, KE-T5 Model, Preliminary Presentation |
 | Min Gyu Kim (김민규)       | M.Sc. Statistics & Data Science             | Related Work, Final Presentation             |
-| KyungWon Park (박경원)   | M.Sc. Artificial Intelligence               | Modeling (mT5-small / mT5-base / KoBART-base)              |
+| Kyung Won Park (박경원)   | M.Sc. Artificial Intelligence               | Modeling (mT5-small / mT5-base / KoBART-base)              |
 | Hyun Bo Sim (심현보)       | B.Sc. Electrical & Electronic Engineering   | Data Preparation                 |
 | Yumin Cheong (정유민)      | M.D. Candidate                              | Data Preparation, Evaluation Metrics                  |
 
@@ -50,7 +50,7 @@ We fine-tuned the following pretrained encoder–decoder models:
 
 - [`KE-T5-base`](https://huggingface.co/KETI-AIR/ke-t5-base) – Korean-specific model
 - [`mT5-small`](https://huggingface.co/google/mt5-small) and [`mT5-base`](https://huggingface.co/google/mt5-base) – multilingual T5 variants
-
+- [`koBART-base-v2`](https://huggingface.co/gogamza/kobart-base-v2)[KoBART-base-v2 – Korean-specific BART-based Seq2Seq model 
 Each model was trained using standard cross-entropy loss on the filtered pseudo-parallel dataset.
 
 
